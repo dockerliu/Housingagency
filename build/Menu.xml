@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menus>
+  <MenuItem>
+    <Text>资料管理</Text>
+    <ItemID>1000</ItemID>
+    <ParentItemID>0</ParentItemID>
+    <FormName></FormName>
+    <IsModule>1</IsModule>
+    <Level>1</Level>
+    
+  </MenuItem>
+  <MenuItem>
+    <Text>产品管理</Text>
+    <ItemID>1100</ItemID>
+    <ParentItemID>0</ParentItemID>
+    <FormName></FormName>
+    <IsModule>1</IsModule>
+    <Level>1</Level>
+
+  </MenuItem>
+  <MenuItem>
+    <Text>进书管理</Text>
+    <ItemID>100001</ItemID>
+    <ParentItemID>1000</ParentItemID>
+    <FormName>frmInputBooks</FormName>
+    <IsModule>0</IsModule>
+    <Level>2</Level>
+  </MenuItem>
+  <MenuItem>
+    <Text>买卖管理</Text>
+    <ItemID>100002</ItemID>
+    <ParentItemID>1000</ParentItemID>
+    <FormName></FormName>
+    <IsModule>1</IsModule>
+    <Level>2</Level>
+    <ImageName>ico16-16.gif</ImageName>
+  </MenuItem>
+  <MenuItem>
+    <Text>作业管理</Text>
+    <ItemID>110001</ItemID>
+    <ParentItemID>1100</ParentItemID>
+    <FormName></FormName>
+    <IsModule>1</IsModule>
+    <Level>2</Level>
+  </MenuItem>
+  <MenuItem>
+    <Text>买书管理</Text>
+    <ItemID>10000201</ItemID>
+    <ParentItemID>100002</ParentItemID>
+    <FormName></FormName>
+    <IsModule>1</IsModule>
+    <Level>2</Level>
+   
+  </MenuItem>
+  <MenuItem>
+    <Text>买sss管理</Text>
+    <ItemID>1000020101</ItemID>
+    <ParentItemID>10000201</ParentItemID>
+    <FormName>frmBuyBook</FormName>
+    <IsModule>0</IsModule>
+    <Level>3</Level>
+  
+  </MenuItem>
+  <MenuItem>
+    <Text>ds</Text>
+    <ItemID>11000101</ItemID>
+    <ParentItemID>110001</ParentItemID>
+    <FormName>frmBuyBook</FormName>
+    <IsModule>0</IsModule>
+    <Level>3</Level>
+   
+  </MenuItem>
+</Menus>
